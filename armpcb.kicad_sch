@@ -3942,7 +3942,7 @@
 			(uuid "a335b564-c2e1-4615-9019-27ea8966894f")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "J3")
 					(unit 1)
@@ -4183,8 +4183,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
 			(at 158.75 84.328 90)
+=======
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
+			(at 193.04 85.598 90)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4223,7 +4228,7 @@
 			(uuid "b096be4e-3920-4ae0-bed7-b1f815164d02")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F5")
 					(unit 1)
@@ -4232,6 +4237,95 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 168.91 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d40cdb2-c2ba-4a6b-977b-da66fe2f3046")
+		(property "Reference" "J13"
+			(at 167.64 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 167.64 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa7a0812-d295-4973-bf60-f6b1a4c8683e")
+		)
+		(pin "2"
+			(uuid "4e8d3c55-0ca7-424e-a1cb-be28076e2593")
+		)
+		(pin "3"
+			(uuid "6469e7b8-e61e-4503-949b-f3bfd21d153e")
+		)
+		(pin "4"
+			(uuid "3ab395c1-e5ac-4af8-a5d6-8dfd1c30b1c7")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Device:Fuse")
 		(at 120.65 101.6 90)
 		(unit 1)
@@ -4263,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
 			(at 120.65 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -4303,7 +4397,7 @@
 			(uuid "6a761288-0b62-4deb-b183-c676ff27eb8c")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F3")
 					(unit 1)
@@ -4312,8 +4406,173 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Connector:USB_C_Plug_USB2.0")
 		(at 332.74 59.69 0)
+=======
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 93.98 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d129f2f-9b9a-4e60-8a8a-912e3e99b516")
+		(property "Reference" "J3"
+			(at 90.678 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bf3701d-8a7c-4cdc-80cf-a8a16cd1a233")
+		)
+		(pin "1"
+			(uuid "8e5104c2-c7d2-4188-b56b-167a6003ae3d")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 93.98 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d04a333-5c02-4676-96fe-71f9fcbadb93")
+		(property "Reference" "J9"
+			(at 90.678 99.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 93.98 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8fb21a2e-47f1-4def-9e8f-f8068e49b8d9")
+		)
+		(pin "1"
+			(uuid "de48cc98-c14e-4cde-b61f-7163b94ff6b3")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 218.44 101.6 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4498,7 +4757,7 @@
 			(uuid "29edf47d-377b-4efc-970e-6979904442c6")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "J5")
 					(unit 1)
@@ -4577,7 +4836,7 @@
 			(uuid "c9141431-1446-41f6-9135-43abbdff86b2")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "H3")
 					(unit 1)
@@ -4586,6 +4845,175 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 166.37 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a21f32-c221-442d-9f85-af0c88396a2e")
+		(property "Reference" "J7"
+			(at 167.64 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 167.64 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d05e434-1028-409e-b4a3-c13bf8a4ce5c")
+		)
+		(pin "1"
+			(uuid "340c7ab5-0371-411c-8363-a69400be687e")
+		)
+		(pin "3"
+			(uuid "efe6eab5-0f56-41a3-866c-4f937d188b38")
+		)
+		(pin "4"
+			(uuid "89e6659e-bce1-4e6f-93c7-fc5864e0df97")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 93.98 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89b5e7be-a2cd-4969-8644-533ea0c8a03e")
+		(property "Reference" "J10"
+			(at 90.678 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "635f3588-a833-4e17-a811-34bd9a117cf2")
+		)
+		(pin "1"
+			(uuid "e1c37ade-e818-4083-980c-03501fef4d24")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Device:Fuse")
 		(at 120.65 76.2 90)
 		(unit 1)
@@ -4617,7 +5045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
 			(at 120.65 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +5085,7 @@
 			(uuid "ce7312b0-6e62-48ce-82db-52b07075b9be")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F1")
 					(unit 1)
@@ -4751,7 +5179,7 @@
 			(uuid "8b35f6af-5539-49cf-b606-07bab23c3efa")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "J2")
 					(unit 1)
@@ -4833,7 +5261,7 @@
 			(uuid "eb0c1985-b841-4dce-8ac9-9fe9b28359b1")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "J4")
 					(unit 1)
@@ -4873,8 +5301,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
 			(at 158.75 109.728 90)
+=======
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
+			(at 193.04 110.998 90)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +5346,7 @@
 			(uuid "5cf99992-b297-4a81-a375-41d3e3e81c41")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F7")
 					(unit 1)
@@ -4992,7 +5425,7 @@
 			(uuid "a32d52fd-7fa4-4043-80d1-f5cc4ba2c010")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "H1")
 					(unit 1)
@@ -5071,7 +5504,7 @@
 			(uuid "d5f9fcdb-c5f8-4b59-a0af-1e11c5844622")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "H4")
 					(unit 1)
@@ -5111,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
 			(at 120.65 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -5151,7 +5584,7 @@
 			(uuid "daaa3a74-a370-46a3-bbe7-e79d92738833")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F2")
 					(unit 1)
@@ -5230,7 +5663,7 @@
 			(uuid "ff933510-6c52-4042-b2b1-014dc9ddef78")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "H2")
 					(unit 1)
@@ -5239,6 +5672,95 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 146.05 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc83691-4667-4e01-9e80-3f619e224690")
+		(property "Reference" "J5"
+			(at 147.32 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 147.32 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48c10567-98fd-4e39-9e7b-ae1f185faf45")
+		)
+		(pin "1"
+			(uuid "05ac2cdb-46d1-4bd3-ae6d-08f7fdf444c5")
+		)
+		(pin "3"
+			(uuid "c6982d84-ff70-4e6f-a67b-535892cb3f7e")
+		)
+		(pin "4"
+			(uuid "6d856466-8970-4fe7-9292-d6f35693b4ff")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Device:Fuse")
 		(at 120.65 114.3 90)
 		(unit 1)
@@ -5270,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
 			(at 120.65 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -5310,7 +5832,7 @@
 			(uuid "06da3a84-e8b9-4ffa-964d-04ccfec51577")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F4")
 					(unit 1)
@@ -5320,6 +5842,89 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
+<<<<<<< Updated upstream
+=======
+		(at 93.98 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2f372d4-3905-4813-8d15-e19e12a6972c")
+		(property "Reference" "J8"
+			(at 90.678 94.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8955206a-1956-48eb-9074-515411042251")
+		)
+		(pin "1"
+			(uuid "71b42416-65db-45b2-bacc-ec7674f12aba")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+>>>>>>> Stashed changes
 		(at 133.35 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -5392,7 +5997,7 @@
 			(uuid "e0ade3d3-6834-4b94-b4d8-63c2843068bc")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "J1")
 					(unit 1)
@@ -5401,6 +6006,95 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 148.59 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76a4503-7f77-49f1-b73b-a79909591b2e")
+		(property "Reference" "J6"
+			(at 147.32 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 147.32 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 148.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 148.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88f6d700-2b8b-440b-8f74-2bd2db62542f")
+		)
+		(pin "2"
+			(uuid "a75ea179-a81d-4887-9739-40e4185cb626")
+		)
+		(pin "3"
+			(uuid "319e338f-bcee-4fc8-91e4-191f22d1dfd2")
+		)
+		(pin "4"
+			(uuid "b36e9f4c-8231-4152-9187-c96fd3398d8a")
+		)
+		(instances
+			(project "armpcb"
+				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Device:Fuse")
 		(at 158.75 95.25 90)
 		(unit 1)
@@ -5432,8 +6126,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
 			(at 158.75 97.028 90)
+=======
+		(property "Footprint" "Imported_footprints:3555-2_KEY"
+			(at 193.04 98.298 90)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +6171,7 @@
 			(uuid "e1701054-2a75-46bf-866e-8f438193590c")
 		)
 		(instances
-			(project "Fuse Box"
+			(project "armpcb"
 				(path "/c56a4164-943f-4675-a5aa-927ce447d12c"
 					(reference "F6")
 					(unit 1)

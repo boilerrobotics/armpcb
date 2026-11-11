@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -146,20 +146,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.5,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.4,
+        "min_hole_to_hole": 0.4,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.4,
+        "min_track_width": 0.4,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Fuse Box.kicad_pro",
+    "filename": "armpcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -672,18 +672,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Fuse Box.kicad_sch",
-        "name": "Root",
+        "filename": "armpcb.kicad_sch",
+        "name": "armpcb",
         "uuid": "c56a4164-943f-4675-a5aa-927ce447d12c"
       }
     ],
-    "used_designators": "P1,H1-4,F1-7,#PWR1-4,J1-7",
+    "used_designators": "J1-13,#PWR1-4,F1-7,H1-4,P1",
     "variants": []
   },
   "sheets": [
     [
       "c56a4164-943f-4675-a5aa-927ce447d12c",
-      "Root"
+      "armpcb"
     ]
   ],
   "text_variables": {},
